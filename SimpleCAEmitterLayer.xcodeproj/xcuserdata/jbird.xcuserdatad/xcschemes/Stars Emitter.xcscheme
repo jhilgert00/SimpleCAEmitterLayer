@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B100FDE816CABFB4004A81FC"
                BuildableName = "Stars Emitter.app"
-               BlueprintName = "Stars Emitter"
-               ReferencedContainer = "container:Stars Emitter.xcodeproj">
+               BlueprintName = "SimpleCAEmitterLayer"
+               ReferencedContainer = "container:SimpleCAEmitterLayer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B100FDE816CABFB4004A81FC"
             BuildableName = "Stars Emitter.app"
-            BlueprintName = "Stars Emitter"
-            ReferencedContainer = "container:Stars Emitter.xcodeproj">
+            BlueprintName = "SimpleCAEmitterLayer"
+            ReferencedContainer = "container:SimpleCAEmitterLayer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B100FDE816CABFB4004A81FC"
             BuildableName = "Stars Emitter.app"
-            BlueprintName = "Stars Emitter"
-            ReferencedContainer = "container:Stars Emitter.xcodeproj">
+            BlueprintName = "SimpleCAEmitterLayer"
+            ReferencedContainer = "container:SimpleCAEmitterLayer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B100FDE816CABFB4004A81FC"
             BuildableName = "Stars Emitter.app"
-            BlueprintName = "Stars Emitter"
-            ReferencedContainer = "container:Stars Emitter.xcodeproj">
+            BlueprintName = "SimpleCAEmitterLayer"
+            ReferencedContainer = "container:SimpleCAEmitterLayer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

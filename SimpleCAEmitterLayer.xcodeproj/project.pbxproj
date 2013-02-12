@@ -25,14 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B100FDE916CABFB4004A81FC /* Stars Emitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stars Emitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B100FDE916CABFB4004A81FC /* SimpleCAEmitterLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCAEmitterLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100FDEC16CABFB4004A81FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B100FDEE16CABFB4004A81FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B100FDF016CABFB4004A81FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B100FDF416CABFB4004A81FC /* Stars Emitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stars Emitter-Info.plist"; sourceTree = "<group>"; };
+		B100FDF416CABFB4004A81FC /* SimpleCAEmitterLayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCAEmitterLayer-Info.plist"; sourceTree = "<group>"; };
 		B100FDF616CABFB4004A81FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B100FDF816CABFB4004A81FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B100FDFA16CABFB4004A81FC /* Stars Emitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stars Emitter-Prefix.pch"; sourceTree = "<group>"; };
+		B100FDFA16CABFB4004A81FC /* SimpleCAEmitterLayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCAEmitterLayer-Prefix.pch"; sourceTree = "<group>"; };
 		B100FDFB16CABFB4004A81FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B100FDFC16CABFB4004A81FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B100FDFE16CABFB4004A81FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -66,7 +66,6 @@
 		B100FDE016CABFB4004A81FC = {
 			isa = PBXGroup;
 			children = (
-				B100FE1516CAC101004A81FC /* QuartzCore.framework */,
 				B100FDF216CABFB4004A81FC /* Stars Emitter */,
 				B100FDEB16CABFB4004A81FC /* Frameworks */,
 				B100FDEA16CABFB4004A81FC /* Products */,
@@ -76,7 +75,7 @@
 		B100FDEA16CABFB4004A81FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B100FDE916CABFB4004A81FC /* Stars Emitter.app */,
+				B100FDE916CABFB4004A81FC /* SimpleCAEmitterLayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +83,7 @@
 		B100FDEB16CABFB4004A81FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B100FE1516CAC101004A81FC /* QuartzCore.framework */,
 				B100FDEC16CABFB4004A81FC /* UIKit.framework */,
 				B100FDEE16CABFB4004A81FC /* Foundation.framework */,
 				B100FDF016CABFB4004A81FC /* CoreGraphics.framework */,
@@ -111,10 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				B100FE1716CAC2EC004A81FC /* particle.png */,
-				B100FDF416CABFB4004A81FC /* Stars Emitter-Info.plist */,
+				B100FDF416CABFB4004A81FC /* SimpleCAEmitterLayer-Info.plist */,
 				B100FDF516CABFB4004A81FC /* InfoPlist.strings */,
 				B100FDF816CABFB4004A81FC /* main.m */,
-				B100FDFA16CABFB4004A81FC /* Stars Emitter-Prefix.pch */,
+				B100FDFA16CABFB4004A81FC /* SimpleCAEmitterLayer-Prefix.pch */,
 				B100FDFE16CABFB4004A81FC /* Default.png */,
 				B100FE0016CABFB4004A81FC /* Default@2x.png */,
 				B100FE0216CABFB4004A81FC /* Default-568h@2x.png */,
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B100FDE816CABFB4004A81FC /* Stars Emitter */ = {
+		B100FDE816CABFB4004A81FC /* SimpleCAEmitterLayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B100FE0F16CABFB4004A81FC /* Build configuration list for PBXNativeTarget "Stars Emitter" */;
+			buildConfigurationList = B100FE0F16CABFB4004A81FC /* Build configuration list for PBXNativeTarget "SimpleCAEmitterLayer" */;
 			buildPhases = (
 				B100FDE516CABFB4004A81FC /* Sources */,
 				B100FDE616CABFB4004A81FC /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = "Stars Emitter";
+			name = SimpleCAEmitterLayer;
 			productName = "Stars Emitter";
-			productReference = B100FDE916CABFB4004A81FC /* Stars Emitter.app */;
+			productReference = B100FDE916CABFB4004A81FC /* SimpleCAEmitterLayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "46 Media";
 			};
-			buildConfigurationList = B100FDE416CABFB4004A81FC /* Build configuration list for PBXProject "Stars Emitter" */;
+			buildConfigurationList = B100FDE416CABFB4004A81FC /* Build configuration list for PBXProject "SimpleCAEmitterLayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B100FDE816CABFB4004A81FC /* Stars Emitter */,
+				B100FDE816CABFB4004A81FC /* SimpleCAEmitterLayer */,
 			);
 		};
 /* End PBXProject section */
@@ -289,9 +289,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Stars Emitter/Stars Emitter-Prefix.pch";
-				INFOPLIST_FILE = "Stars Emitter/Stars Emitter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Stars Emitter/SimpleCAEmitterLayer-Prefix.pch";
+				INFOPLIST_FILE = "Stars Emitter/SimpleCAEmitterLayer-Info.plist";
+				PRODUCT_NAME = SimpleCAEmitterLayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,9 +300,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Stars Emitter/Stars Emitter-Prefix.pch";
-				INFOPLIST_FILE = "Stars Emitter/Stars Emitter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Stars Emitter/SimpleCAEmitterLayer-Prefix.pch";
+				INFOPLIST_FILE = "Stars Emitter/SimpleCAEmitterLayer-Info.plist";
+				PRODUCT_NAME = SimpleCAEmitterLayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -310,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B100FDE416CABFB4004A81FC /* Build configuration list for PBXProject "Stars Emitter" */ = {
+		B100FDE416CABFB4004A81FC /* Build configuration list for PBXProject "SimpleCAEmitterLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B100FE0D16CABFB4004A81FC /* Debug */,
@@ -319,7 +319,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B100FE0F16CABFB4004A81FC /* Build configuration list for PBXNativeTarget "Stars Emitter" */ = {
+		B100FE0F16CABFB4004A81FC /* Build configuration list for PBXNativeTarget "SimpleCAEmitterLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B100FE1016CABFB4004A81FC /* Debug */,

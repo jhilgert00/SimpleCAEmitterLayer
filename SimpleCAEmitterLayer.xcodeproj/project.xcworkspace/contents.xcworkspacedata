@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Stars Emitter.xcodeproj">
+      location = "self:SimpleCAEmitterLayer.xcodeproj">
    </FileRef>
 </Workspace>

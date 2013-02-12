@@ -20,16 +20,19 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
--(IBAction)stopEmitting:(id)sender {
-    
-    [emitterView setIsEmitting:NO];
-}
-
 -(IBAction)startEmitting:(id)sender {
     
     [emitterView setIsEmitting:YES];
+    
+}
+
+-(IBAction)stopEmitting:(id)sender {
+    
+    [emitterView setIsEmitting:NO];
     [emitterView stopAnimations];
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {

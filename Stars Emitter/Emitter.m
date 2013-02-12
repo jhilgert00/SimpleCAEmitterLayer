@@ -21,7 +21,8 @@
     
         //configure the emitter layer
         starsEmitter.emitterPosition = CGPointMake(160, 240);
-        starsEmitter.emitterSize = CGSizeMake(320,480);
+        starsEmitter.emitterSize = CGSizeMake(self.superview.bounds.size.width,self.superview.bounds.size.height);
+        NSLog(@"width = %f, height = %f", starsEmitter.emitterSize.width, starsEmitter.emitterSize.height);
         starsEmitter.renderMode = kCAEmitterLayerPoints;
         starsEmitter.emitterShape = kCAEmitterLayerRectangle;
         starsEmitter.emitterMode = kCAEmitterLayerUnordered;
